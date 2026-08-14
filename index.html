@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Late Night Lab — Minho & Helen</title>
+<meta name="description" content="Minho and Helen make games and write Science Olympiad exams, mostly after midnight." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-row">
+    <a href="index.html" class="brand"><span class="dot"></span> Late Night Lab</a>
+    <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+    <nav class="main-nav">
+      <a href="index.html" class="active">Home</a>
+      <a href="games.html">Games</a>
+      <a href="scioly.html">Scioly Exams</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="glow" aria-hidden="true"></div>
+  <div class="hero-inner">
+    <p class="label">Minho Shin &amp; Helen Xia</p>
+    <h1>Two friends, one desk lamp, <span class="accent">too many tabs open.</span></h1>
+    <p class="sub">We build small games together and write Science Olympiad exams on the side — usually the same night, usually past midnight.</p>
+    <div class="cta-row">
+      <a href="games.html" class="btn btn-primary">See our games</a>
+      <a href="scioly.html" class="btn btn-ghost">Browse Scioly exams</a>
+    </div>
+  </div>
+</section>
+
+<div class="constellation" aria-hidden="true">
+  <svg viewBox="0 0 1080 40" preserveAspectRatio="none">
+    <line x1="40" y1="20" x2="1040" y2="20" stroke="rgba(237,239,255,0.12)" stroke-width="1" stroke-dasharray="2 8" />
+    <circle cx="40" cy="20" r="3" fill="#f3c675" />
+    <circle cx="360" cy="20" r="2.5" fill="#86d9c4" opacity="0.7" />
+    <circle cx="720" cy="20" r="2.5" fill="#86d9c4" opacity="0.7" />
+    <circle cx="1040" cy="20" r="3" fill="#86d9c4" />
+  </svg>
+</div>
+
+<section class="section" id="about">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="label">Who's behind this</p>
+      <h2>About us</h2>
+      <p>We met making things for fun, and never really stopped.</p>
+    </div>
+    <div class="people">
+      <div class="person-card minho">
+        <div class="initial">M</div>
+        <h3>Minho Shin</h3>
+        <p class="role">Games, code, occasional chaos</p>
+        <p class="bio">Handles most of the game logic and the late-night debugging sessions. Will absolutely rewrite a system three times for no reason.</p>
+      </div>
+      <div class="person-card helen">
+        <div class="initial">H</div>
+        <h3>Helen Xia</h3>
+        <p class="role">Exam writing, design, quality control</p>
+        <p class="bio">Writes and edits the Science Olympiad exams, and is the reason anything actually ships looking clean.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="preview-games">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="label">01 — Games</p>
+      <h2>What we're building</h2>
+      <p>Small, playable, and made because we wanted them to exist.</p>
+    </div>
+    <div class="grid">
+      <div class="card">
+        <span class="status-pill wip"><span class="dot"></span>in progress</span>
+        <h3>Our first game</h3>
+        <p>Playable builds are coming soon — this page will hold live embeds once they're ready.</p>
+        <div class="tag-row"><span class="tag">browser</span><span class="tag amber">wip</span></div>
+      </div>
+    </div>
+    <div class="cta-row" style="margin-top: 24px;">
+      <a href="games.html" class="btn btn-ghost">Visit the games page →</a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="preview-scioly">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="label">02 — Science Olympiad</p>
+      <h2>Exams we've written</h2>
+      <p>Practice tests and materials, organized by event.</p>
+    </div>
+    <div class="cta-row">
+      <a href="scioly.html" class="btn btn-ghost">Browse all exams →</a>
+    </div>
+  </div>
+</section>
+
+<footer id="contact">
+  <div class="footer-inner">
+    <div class="footer-col">
+      <h4>Minho</h4>
+      <a href="mailto:minhoshin0226@gmail.com">minhoshin0226@gmail.com</a>
+      <a href="https://www.linkedin.com/in/minho-shin-3a4a04366" target="_blank" rel="noopener">LinkedIn ↗</a>
+    </div>
+    <div class="footer-col">
+      <h4>Helen</h4>
+      <a href="mailto:helenxia10@gmail.com">helenxia10@gmail.com</a>
+    </div>
+    <div class="footer-col">
+      <h4>Elsewhere</h4>
+      <a href="games.html">Games</a>
+      <a href="scioly.html">Scioly Exams</a>
+    </div>
+  </div>
+  <div class="footer-bottom wrap">Late Night Lab — built by Minho &amp; Helen.</div>
+</footer>
+
+<script src="nav.js"></script>
+</body>
+</html>

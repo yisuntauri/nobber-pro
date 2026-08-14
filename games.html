@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Games — Late Night Lab</title>
+<meta name="description" content="Games made by Minho and Helen." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-row">
+    <a href="index.html" class="brand"><span class="dot"></span> Late Night Lab</a>
+    <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="games.html" class="active">Games</a>
+      <a href="scioly.html">Scioly Exams</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" style="padding-bottom: 32px;">
+  <div class="glow" aria-hidden="true"></div>
+  <div class="hero-inner">
+    <p class="label">Games</p>
+    <h1 style="font-size: clamp(30px, 5vw, 44px);">Things we made because we wanted to <span class="accent">play them.</span></h1>
+    <p class="sub">Everything here is built by the two of us. Playable versions will embed directly on this page as they're finished.</p>
+  </div>
+</section>
+
+<section class="section" style="padding-top: 8px;">
+  <div class="wrap">
+
+    <div class="note-box">
+      <strong>For Minho / Helen:</strong> each card below is a placeholder slot. When a game is ready, swap its card content for an <code>&lt;iframe&gt;</code> or embedded player, and flip the status pill from "wip" to "live."
+    </div>
+
+    <div class="grid">
+
+      <div class="card">
+        <span class="status-pill wip"><span class="dot"></span>in progress</span>
+        <h3>Untitled Project 01</h3>
+        <p>Placeholder — description, genre, and a playable embed go here once it's ready.</p>
+        <div class="tag-row">
+          <span class="tag">browser</span>
+          <span class="tag amber">wip</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <span class="status-pill wip"><span class="dot"></span>concept</span>
+        <h3>Untitled Project 02</h3>
+        <p>Another slot, ready whenever the next idea is far enough along to show.</p>
+        <div class="tag-row">
+          <span class="tag">concept</span>
+        </div>
+      </div>
+
+      <div class="card" style="display: flex; align-items: center; justify-content: center; text-align: center; border-style: dashed; min-height: 180px;">
+        <div>
+          <p class="label" style="margin-bottom: 6px;">+ next game</p>
+          <p style="color: var(--text-faint); font-size: 13.5px; margin: 0;">More slots added as we build.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer id="contact">
+  <div class="footer-inner">
+    <div class="footer-col">
+      <h4>Minho</h4>
+      <a href="mailto:minhoshin0226@gmail.com">minhoshin0226@gmail.com</a>
+      <a href="https://www.linkedin.com/in/minho-shin-3a4a04366" target="_blank" rel="noopener">LinkedIn ↗</a>
+    </div>
+    <div class="footer-col">
+      <h4>Helen</h4>
+      <a href="mailto:helenxia10@gmail.com">helenxia10@gmail.com</a>
+    </div>
+    <div class="footer-col">
+      <h4>Elsewhere</h4>
+      <a href="index.html">Home</a>
+      <a href="scioly.html">Scioly Exams</a>
+    </div>
+  </div>
+  <div class="footer-bottom wrap">Late Night Lab — built by Minho &amp; Helen.</div>
+</footer>
+
+<script src="nav.js"></script>
+</body>
+</html>
